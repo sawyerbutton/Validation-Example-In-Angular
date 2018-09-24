@@ -90,3 +90,12 @@ export class TemplateComponent implements OnInit {
 }
 ```
 ![template driven form](src/assets/template-driven-form.png)
+
+
+## Conclusion
+
+> Even though there is personality of using reactive form or template form, but from my perspective, always using reactive form instead of template form, 
+
+> The majority reason for using reactive form is, it is more easier to watch the model level for the component, the code structure is more like from model to view, reduce the coupling between the view and model
+
+> But in a word, it is personal idea but big issue
