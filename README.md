@@ -1,28 +1,14 @@
-# ValidationExampleInAngular
+# Validation Example In Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+## Based on angular 6.x, describe the usage of validation in angular reactive form and template driven form
 
-## Development server
+## CSS rely on bootstrap 4.1.1
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## What is this?
 
-## Code scaffolding
+> This is a quick start example for setting up validation in Angular6 using reactive forms and template driven from
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+> The example is a simple registration form with pretty standard fields for first name, last name, email and password. All fields are required, plus the email field must be a valid email address and the password field must have a min length of 6.
+  
+> The example setup the form to validate on submit rather than as soon as each field is changed. This is implemented with a 'submitted' field in the app component that is set to true when the form is submitted for the first time.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# Validation-Example-In-Angular
