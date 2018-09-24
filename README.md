@@ -98,4 +98,4 @@ export class TemplateComponent implements OnInit {
 
 > The majority reason for using reactive form is, it is more easier to watch the model level for the component, the code structure is more like from model to view, reduce the coupling between the view and model
 
-> But in a word, it is personal idea but big issue
+> But in a word, it is personal idea not big issue
