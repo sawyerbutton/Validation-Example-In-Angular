@@ -57,7 +57,7 @@ export class ReactiveComponent implements OnInit {
 
 ![reactive form](src/assets/reactive-form.png)
 
-> The form binds the form submit event to the onSubmit() handler in the reactive component using the Angular event binding (ngSubmit)="onSubmit()". 
+> The form binds the form submit event to the `onSubmit()` handler in the reactive component using the Angular event binding `(ngSubmit)="onSubmit()"`. 
 
 > Validation messages are displayed only after the user attempts to submit the form for the first time, this is controlled with the submitted property of the reactive component
 
