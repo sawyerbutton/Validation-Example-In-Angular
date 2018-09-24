@@ -55,7 +55,7 @@ export class ReactiveComponent implements OnInit {
 }
 ```
 
-![reactive form](/assets/reactive-form.png)
+![reactive form](src/assets/reactive-form.png)
 
 > The form binds the form submit event to the onSubmit() handler in the reactive component using the Angular event binding (ngSubmit)="onSubmit()". 
 
@@ -89,4 +89,4 @@ export class TemplateComponent implements OnInit {
   }
 }
 ```
-![template driven form](/assets/template-driven-form.png)
+![template driven form](src/assets/template-driven-form.png)
