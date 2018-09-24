@@ -55,6 +55,38 @@ export class ReactiveComponent implements OnInit {
 }
 ```
 
+![reactive form](/assets/reactive-form.png)
+
 > The form binds the form submit event to the onSubmit() handler in the reactive component using the Angular event binding (ngSubmit)="onSubmit()". 
 
 > Validation messages are displayed only after the user attempts to submit the form for the first time, this is controlled with the submitted property of the reactive component
+
+
+### template driven form
+
+> validation is implemented using the `f.submitted` property of the `#f="ngForm"` template variable which is true after the form is submitted for the first time.
+
+> The form input fields use the `[(ngModel)]` directive to bind to properties of the model object in the template driven form component. 
+
+> Validation is implemented using the attributes `required`, `minlength` and `email`, the Angular framework contains directives that match these attributes with built-in validator functions.
+  
+```typescript
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-template',
+  templateUrl: './template.component.html',
+  styleUrls: ['./template.component.css']
+})
+export class TemplateComponent implements OnInit {
+  model: any = {};
+  constructor() { }
+
+  ngOnInit() {
+  }
+  onSubmit() {
+    alert('template driven form submitted!\n\n' + JSON.stringify(this.model));
+  }
+}
+```
+![template driven form](/assets/template-driven-form.png)
